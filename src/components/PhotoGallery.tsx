@@ -18,137 +18,138 @@ const PhotoGallery: React.FC<PhotoGalleryProps> = ({ onNext }) => {
     const photos: Photo[] = [
     {
         id: 1,
-        url: '/images/photo1.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo1.jpeg`,  // ✅ This works!
         caption: 'Promise to Always Love',
         date: 'Forever'
     },
     {
         id: 2,
-        url: '/images/photo2.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo2.jpeg`,
         caption: 'Promise to Make You Smile',
         date: 'Every Day'
     },
     {
         id: 3,
-        url: '/images/photo3.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo3.jpeg`,
         caption: 'Promise to Be There',
         date: 'Always'
     },
     {
         id: 4,
-        url: '/images/photo4.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo4.jpeg`,
         caption: 'Promise to Support You',
         date: 'Forever'
     },
     {
         id: 5,
-        url: '/images/photo5.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo5.jpeg`,
         caption: 'Promise to Care',
         date: 'Endlessly'
     },
     {
         id: 6,
-        url: '/images/photo6.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo6.jpeg`,
         caption: 'Promise to Listen',
         date: 'Always'
     },
     {
         id: 7,
-        url: '/images/photo7.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo7.jpeg`,
         caption: 'Promise to Cherish',
         date: 'Every Moment'
     },
     {
         id: 8,
-        url: '/images/photo8.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo8.jpeg`,
         caption: 'Promise to Protect',
         date: 'Forever'
     },
     {
         id: 9,
-        url: '/images/photo9.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo9.jpeg`,
         caption: 'Promise to Make Memories',
         date: 'Together'
     },
     {
         id: 10,
-        url: '/images/photo10.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo10.jpeg`,
         caption: 'Promise to Keep You Happy',
         date: 'Always'
     },
     {
         id: 11,
-        url: '/images/photo11.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo11.jpeg`,
         caption: 'Promise to Understand',
         date: 'Forever'
     },
     {
         id: 12,
-        url: '/images/photo12.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo12.jpeg`,
         caption: 'Promise to Grow Together',
         date: 'Always'
     },
     {
         id: 13,
-        url: '/images/photo13.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo13.jpeg`,
         caption: 'Promise to Respect',
         date: 'Every Day'
     },
     {
         id: 14,
-        url: '/images/photo14.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo14.jpeg`,
         caption: 'Promise to Be Honest',
         date: 'Always'
     },
     {
         id: 15,
-        url: '/images/photo15.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo15.jpeg`,
         caption: 'Promise to Adventure',
         date: 'Together'
     },
     {
         id: 16,
-        url: '/images/photo16.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo16.jpeg`,
         caption: 'Promise to Hold Your Hand',
         date: 'Forever'
     },
     {
         id: 17,
-        url: '/images/photo17.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo17.jpeg`,
         caption: 'Promise to Dream Together',
         date: 'Always'
     },
     {
         id: 18,
-        url: '/images/photo18.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo18.jpeg`,
         caption: 'Promise to Never Give Up',
         date: 'On Us'
     },
     {
         id: 19,
-        url: '/images/photo19.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo19.jpeg`,
         caption: 'Promise to Love Unconditionally',
         date: 'Forever'
     },
     {
         id: 20,
-        url: '/images/photo20.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo20.jpeg`,
         caption: 'Promise to Be Your Best Friend',
         date: 'Always'
     },
     {
         id: 21,
-        url: '/images/photo21.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo21.jpeg`,
         caption: 'Promise to Choose You',
         date: 'Every Time'
     },
     {
         id: 22,
-        url: '/images/photo22.jpeg',
+        url: `${process.env.PUBLIC_URL}/images/photo22.jpeg`,
         caption: 'Promise to Love You Forever',
         date: 'And Always'
     }
     ];
+
 
 
   // Smooth auto-rotation using requestAnimationFrame with ref
